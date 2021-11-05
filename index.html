@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+	<title>
+		Usando google API para traduzir pagina web ?
+	</title>
+</head>
+<!-- Escrevi o codigo para testar espero que seja util -Romoaldo Doliz -->
+<body>
+	<p>Hello Aqui Romoaldo!</p>
+	<p>Seja bem vindo</p>
+
+	<p>
+		Traduza a pagina para qualquer lingua que desejar:
+	</p>
+	
+	<div id="google_translate_element"></div>
+	
+	<script type="text/javascript">
+		function googleTranslateElementInit() {
+			new google.translate.TranslateElement(
+				{pageLanguage: 'en'},
+				'google_translate_element'
+			);
+		}
+	</script>
+	
+	<script type="text/javascript" src=
+"https://translate.google.com/translate_a/element.js?
+		cb=googleTranslateElementInit">
+	</script>
+	
+	<p>
+		Use a box para selecionar a lingua
+	</p>
+</body>
+
+</html>
